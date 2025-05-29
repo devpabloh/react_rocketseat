@@ -4,4 +4,10 @@
     padding: 0.7rem 1rem;
     border-radius:0.5rem ;
     color: #fff;
+    cursor: pointer;
+}
+
+.container:hover{
+    transform: scale(1.1) translateY(-0.2rem) rotate(1deg)  ;
+    transition: transform 0.2s ease-in-out;
 }
